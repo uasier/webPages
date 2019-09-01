@@ -10,3 +10,10 @@
 
 [2、在线预览](https://uasier.github.io/webPages/Refuse2BeRejected/index.html)
 
+### 2、anime.js使用
+
+[0、背景](http://www.animejs.cc/)
+
+[1、代码路径](https://github.com/uasier/webPages/tree/master/anime.js)
+
+[2、在线预览](https://uasier.github.io/webPages/anime.js/index.html)
