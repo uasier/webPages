@@ -1,0 +1,448 @@
+      @charset "UTF-8";
+
+      .fancy-button-reset-base-class, .deal .action .button {
+        font-family: "微软雅黑",“宋体”，"Lucida Grande", Lucida, Arial, sans-serif;
+        background: url('/button_bg.png') repeat-x bottom left;
+        margin: 0;
+        width: auto;
+        overflow: visible;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        border-style: solid;
+        font-weight: bold;
+      }
+
+      .fancy-button-reset-base-class::-moz-focus-inner, .deal .action .button::-moz-focus-inner {
+        border: none;
+        padding: 0;
+      }
+
+      .fancy-button-reset-base-class:focus, .deal .action .button:focus {
+        outline: none;
+      }
+
+
+      * {
+        font-family: "微软雅黑",“宋体”，arial, sans-serif;
+      }
+
+
+      body {
+        margin-right: 292px;
+        background-color: white;
+        color: #333333;
+      }
+
+
+      body.skip-deal {
+        margin-right: 0px;
+      }
+
+
+      #logo {
+        margin-top: -1em;
+        position: relative;
+        top: 2em;
+      }
+
+
+
+
+
+      input {
+        -moz-box-sizing: content-box;
+        font-family: inherit;
+      }
+
+
+      input.text {
+	    margin: 0 5px 0 0;
+        -moz-border-bottom-colors: none;
+		-moz-border-image: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		background: url("http://www.baidu.com/img/i2.png") no-repeat scroll 0 0 transparent;
+		border-color: #9A9A9A #CDCDCD #CDCDCD #9A9A9A;
+		border-style: solid;
+		border-width: 1px;
+		font: 16px arial;
+		height: 33px;
+		padding: 4px 7px;
+		vertical-align: top;
+		width: 404px;
+      }
+
+
+      input.text:focus {
+        outline: none;
+      }
+
+
+      input#search, input#lucky {
+        background: url("http://www.baidu.com/img/i2.png") repeat scroll 0 -35px #DDDDDD;
+		border: 0 none;
+		cursor: pointer;
+		height: 32px;
+		padding: 0;
+		width: 95px;
+      }
+
+
+      .button_wrapper {
+        background: url("http://www.baidu.com/img/i2.png") no-repeat scroll -202px bottom transparent;
+		display: inline-block;
+		height: 34px;
+		width: 97px;
+      }
+
+      .button_wrapper .inner {
+        background: none repeat scroll 0 0 #eeeeee;
+        border-color: #cccccc #999999 #999999 #cccccc;
+        border-style: solid;
+        border-width: 1px;
+        display: block;
+        height: 30px;
+      }
+
+
+      #fake_mouse {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+      }
+
+
+      #instructions {
+        margin: 40px auto;
+        
+        font-size: 1.1em;
+        width: 350;
+        height: 84px;
+        background: transparent url(img/instructions_bg.png) no-repeat top center;
+        
+      }
+
+      #instructions div {
+        line-height: 84px;
+      }
+
+
+      #link_placeholder {
+        height: 90px;
+      }
+
+
+      #link {
+        position: absolute;
+        display: none;
+        padding-bottom: 28px;
+        width: auto;
+      }
+
+
+      input.link {
+        width: 500px;
+        font-size: 1.2em;
+        border: 1px solid #c2c9ff;
+        color: #555555;
+        background-color: #f4fbff;
+        cursor: pointer;
+      }
+
+
+
+      #footer {
+        margin-top: 20px;/*100px;*/
+        color: #999999;
+        border-top: solid 1px #dddddd;
+        padding-top: 0.5em;
+        text-align: center;
+      }
+
+      #footer a {
+        color: #999999;
+        text-decoration: none;
+        padding: 0 1em;
+      }
+
+      #footer a:hover {
+        text-decoration: underline;
+      }
+
+
+      #about {
+        margin-top: 0.5em;
+        color: #666666;
+        text-align: center;
+      }
+
+     #language {
+        margin-top: 1em;
+        color: #666666;
+        text-align: center;
+        background: white url(img/worldwide.png) no-repeat center;
+      }
+
+      #language select {
+        width: 200px;
+        opacity: 0;
+      }
+
+
+      #copyright {
+        margin-top: 40px;
+        padding: 0.25em;
+        text-align: center;
+        font-size: 0.75em;
+        color: #bbbbbb;
+        background-color: white;
+      }
+
+
+      #link_buttons, #link_message {
+        position: absolute;
+        display: none;
+      }
+
+      a.link_button {
+        display: block;
+        float: left;
+        width: 60px;
+        height: 20px;
+        margin: 0 2px;
+        padding: 5px 0;
+        background: transparent url(img/link_button.png) no-repeat center center;
+        color: white;
+        line-height: 20px;
+        text-align: center;
+        font-size: 0.8em;
+        text-decoration: none;
+      }
+
+      a.link_button:hover {
+        background-image: url(img/link_button_hover.png);
+      }
+
+
+      #link_message {
+        z-index: 99;
+        width: 332px;
+        height: 32px;
+        background: url(img/link_message.png);
+        color: white;
+        line-height: 32px;
+        text-align: center;
+        font-size: 1em;
+      }
+
+      .banner {
+        width: 728px;
+        margin: 0 auto;
+      }
+
+      .deal {
+        -moz-box-shadow: #333333 1px 1px 5px 0;
+        -webkit-box-shadow: #333333 1px 1px 5px 0;
+        -o-box-shadow: #333333 1px 1px 5px 0;
+        box-shadow: #333333 1px 1px 5px 0;
+        display: none;
+        text-decoration: none;
+        width: 280px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+      }
+
+      .deal .pitch {
+        position: relative;
+        height: 401px;
+      }
+
+      .deal .pitch .region_name, .deal .pitch .title, .deal .pitch .numbers {
+        background: black;
+        color: white;
+        line-height: 24px;
+        opacity: 0.8;
+        -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+      }
+
+      .deal .pitch .region_name {
+        font-size: 24px;
+        padding: 6px 8px 2px 8px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+      }
+
+      .deal .pitch .title {
+        padding: 2px 8px 6px 8px;
+        font-size: 16px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+      }
+
+      .deal .pitch .numbers {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+      }
+
+      .deal .pitch .numbers .block {
+        float: left;
+        text-align: center;
+      }
+
+      .deal .pitch .numbers .block .value {
+        font-size: 24px;
+        padding: 8px 0px 0px 0px;
+      }
+
+      .deal .pitch .numbers .block .label {
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 0px 8px 8px 8px;
+      }
+
+      .deal .pitch .numbers .block.savings {
+        margin-left: 16%;
+      }
+
+      .deal .pitch .numbers .block.remaining {
+        position: absolute;
+        right: 16%;
+      }
+
+      .deal .action {
+        padding: 16px 8px;
+        background-color: #eeeeee;
+        text-align: center;
+      }
+
+      .deal .action .button {
+        font-family: "arial rounded mt bold";
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -o-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -khtml-border-radius: 6px;
+        border-radius: 6px;
+        font-size: 32px;
+        line-height: 1.2em;
+        padding: 0.3em 1em;
+        border-width: 1px;
+        background-color: #ff7f1c;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #fbdec8), color-stop(10%, #f5ab72), color-stop(50%, #ef791d), color-stop(50%, #ec7011), color-stop(100%, #f18c3e));
+        background-image: -moz-linear-gradient(top, #fbdec8 0%, #f5ab72 10%, #ef791d 50%, #ec7011 50%, #f18c3e 100%);
+        background-image: linear-gradient(top, #fbdec8 0%, #f5ab72 10%, #ef791d 50%, #ec7011 50%, #f18c3e 100%);
+        border-color: #c15c0e;
+        text-shadow: #9c4400 0px 1px 1px;
+        -moz-box-shadow: rgba(255, 255, 255, 0.555) 0 0 0.1em 1px inset;
+        -webkit-box-shadow: rgba(255, 255, 255, 0.555) 0 0 0.1em 1px inset;
+        -o-box-shadow: rgba(255, 255, 255, 0.555) 0 0 0.1em 1px inset;
+        box-shadow: rgba(255, 255, 255, 0.555) 0 0 0.1em 1px inset;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding;
+        -o-background-clip: padding-box;
+        -ms-background-clip: padding-box;
+        -khtml-background-clip: padding-box;
+        background-clip: padding-box;
+        padding: 0.3em 0.5em;
+      }
+
+      .deal .action .button, .deal .action .button:visited {
+        color: white;
+      }
+
+      .deal .action .button:hover, .deal .action .button:focus {
+        background-color: #ff760d;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #fad6ba), color-stop(10%, #f4a364), color-stop(50%, #ec7011), color-stop(50%, #dd6910), color-stop(100%, #f08430));
+        background-image: -moz-linear-gradient(top, #fad6ba 0%, #f4a364 10%, #ec7011 50%, #dd6910 50%, #f08430 100%);
+        background-image: linear-gradient(top, #fad6ba 0%, #f4a364 10%, #ec7011 50%, #dd6910 50%, #f08430 100%);
+        border-color: #b3550d;
+        text-shadow: #8c3d00 0px 1px 1px;
+      }
+
+      .deal .action .button:hover, .deal .action .button:hover:visited, .deal .action .button:focus, .deal .action .button:focus:visited {
+        color: white;
+      }
+
+      .deal .action .button:active {
+        background-color: #fc6e00;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ec7011), color-stop(30%, #ef7618), color-stop(50%, #e26c10), color-stop(50%, #d4650f), color-stop(100%, #f18735));
+        background-image: -moz-linear-gradient(top, #ec7011 0%, #ef7618 30%, #e26c10 50%, #d4650f 50%, #f18735 100%);
+        background-image: linear-gradient(top, #ec7011 0%, #ef7618 30%, #e26c10 50%, #d4650f 50%, #f18735 100%);
+        border-color: #a44e0c;
+        text-shadow: #7d3700 0px -1px -1px;
+        -moz-box-shadow: #c15c0e 0 0.08em 0.1em 1px inset;
+        -webkit-box-shadow: #c15c0e 0 0.08em 0.1em 1px inset;
+        -o-box-shadow: #c15c0e 0 0.08em 0.1em 1px inset;
+        box-shadow: #c15c0e 0 0.08em 0.1em 1px inset;
+      }
+
+      .deal .action .button:active, .deal .action .button:active:visited {
+        color: white;
+      }
+
+      .deal .action .button .price {
+        font-size: 32px;
+        font-family: "arial rounded mt bold";
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+	width: 1080px;
+	height: auto;
+	margin: 0 auto;
+	text-align:center;
+}
+
+
+
+
+
+
+.header-container{
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom:100px ;
+}
+      .logo {
+      	margin: 0 auto;
+        font-size: 1.5em;
+        color: #444444;
+      }
+      
