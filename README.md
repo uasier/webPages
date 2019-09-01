@@ -4,16 +4,18 @@
 
 ### 1、拒绝被拒绝
 
-[0、背景](https://github.com/uasier/webPages/blob/master/Refuse2BeRejected/readme.md)
+- [1、代码路径](https://github.com/uasier/webPages/tree/master/Refuse2BeRejected)
 
-[1、代码路径](https://github.com/uasier/webPages/tree/master/Refuse2BeRejected)
-
-[2、在线预览](https://uasier.github.io/webPages/Refuse2BeRejected/)
+- [2、在线预览](https://uasier.github.io/webPages/Refuse2BeRejected/)
 
 ### 2、anime.js使用
 
-[0、背景](https://github.com/uasier/webPages/blob/master/animejs/readme.md)
+- [1、代码路径](https://github.com/uasier/webPages/tree/master/animejs)
 
-[1、代码路径](https://github.com/uasier/webPages/tree/master/animejs)
+- [2、在线预览](https://uasier.github.io/webPages/animejs/)
 
-[2、在线预览](https://uasier.github.io/webPages/animejs/)
+### 3、vip视频解析（调接口）
+
+- [1、代码路径](https://github.com/uasier/webPages/tree/master/vipvideo2play)
+
+- [2、在线预览](https://uasier.github.io/webPages/vipvideo2play/)

@@ -1,0 +1,104 @@
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>VIP视频解析</title>
+		<meta name=viewport content="width=device-width,anicital-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+
+		<link rel="stylesheet" href="css/512.css" />
+		<!--浏览器标签ico-->
+		<link rel="shortcut icon" href="./favicon.ico" />
+		<!--书签标签-->
+		<link rel="bookmark" href="./favicon.ico" />
+		<!--苹果桌面标题-->
+		<meta name="apple-mobile-web-app-title" content="VIP视频解析">
+		<!--苹果桌面图标-->
+		<link rel="apple-touch-icon-precomposed" sizes="180x180" href="./favicon.ico">
+	</head>
+
+	<body>
+
+		<!--视频box区域-->
+		<div class="container-fluid video-box">
+			<div class="container">
+
+				<div class="url-box">
+					<iframe id="player" allowTransparency="true" frameborder="1" scrolling="no" width="100%" height="550px" src=""></iframe>
+				</div>
+
+				<div class="url-box">
+					<div class="input-group">
+						<input type="text" id="url" class="form-control url-text" aria-label="Text input with segmented button dropdown" placeholder="请粘贴视频网址" title="请复制你想要看的视频网址，粘贴到此处点击播放即可" id="url">
+						<div class="input-group-addon">
+							<select class="url-c url-text" id="api" title="如发现视频无法正常播放请尝试更换视频线路">
+
+							</select>
+
+						</div>
+						<div class="input-group-btn">
+
+							<button type="button" class="btn btn-default btn-play" title="点击开始解析并开始播放" id="play" id="play" onclick="play();">点击播放</button>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<!--
+              	//test 数据
+				//http://www.iqiyi.com/v_19rrcqwhqk.html
+				//https://v.qq.com/x/cover/m441e3rjq9kwpsc/h0026vya197.html
+				//http://v.youku.com/v_show/id_XMzYwODA2MTIyOA==.html
+              -->
+		<div class="footer">
+		    <p>本页面学习自：<a href="https://lai.yuweining.cn/vip.html" target="_blank">不死鸟</a>、<a href="https://yantuz.cn/466.html" target="_blank">岩兔站</a>、<a href="https://51.ruyo.net/3127.html" target="_blank">如有乐享</a></p>
+	    </div>
+		<script>
+			var data = [
+
+				{
+					name: "自测1",
+					url: "https://jqaaa.com/jx.php?url="
+				},
+				{
+					name: "自测2",
+					url: "http://jiexi.071811.cc/jx2.php?url="
+				},
+				{
+					name: "自测3",
+					url: "https://jiexi.071811.cc/jx2.php?url="
+				},
+				{
+					name: "自测4",
+					url: "https://ejiafarm.com/jx.php?url="
+				},
+				{
+					name: "自测5",
+					url: "https://beaacc.com/api.php?url="
+				},
+			];
+			for(var i in data) {
+				var opt = document.createElement("option");
+				opt.value = data[i].url;
+				opt.innerText = data[i].name;
+				document.getElementById("api").appendChild(opt);
+			}
+
+			function play() {
+				var url = document.getElementById("url").value;
+				if(url.indexOf('http') == -1) {
+					alert('视频地址不正确！');
+					return;
+				}
+				var api = document.getElementById("api").value;
+				url = api + url;
+				document.getElementById("player").src = url;
+			}
+		</script>
+
+	</body>
+
+</html>
