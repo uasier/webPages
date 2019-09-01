@@ -8,7 +8,7 @@
 
 [1、代码路径](https://github.com/uasier/webPages/tree/master/Refuse2BeRejected)
 
-[2、在线预览](https://uasier.github.io/webPages/Refuse2BeRejected/index.html)
+[2、在线预览](https://uasier.github.io/webPages/Refuse2BeRejected/)
 
 ### 2、anime.js使用
 
@@ -16,4 +16,4 @@
 
 [1、代码路径](https://github.com/uasier/webPages/tree/master/animejs)
 
-[2、在线预览](https://uasier.github.io/webPages/animejs/index.html)
+[2、在线预览](https://uasier.github.io/webPages/animejs/)
