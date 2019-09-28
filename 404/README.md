@@ -1,4 +1,5 @@
-# fork from https://github.com/songjinzhong/404html
+fork from https://github.com/songjinzhong/404html
+
 # 404html
 腾讯的公益404页面，已经解决了bug，可以直接使用，注意在 `404.html` 的第 11 行把 URL 换成你想要返回的。
 
@@ -7,3 +8,6 @@
 [demo](http://yuren.space/404)。
 
 腾讯的这个公益页面还是很赞的，希望能一直走下去，共勉！
+
+# uasier
+补充[demo](https://uasier.github.io/webPages/404/404.html)
