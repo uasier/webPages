@@ -1,3 +1,8 @@
+### 5、公益404
+
+- [1、代码路径](https://github.com/uasier/webPages/tree/master/404)
+- [2、在线预览](https://uasier.github.io/webPages/404/404.html)
+
 fork from https://github.com/songjinzhong/404html
 
 # 404html

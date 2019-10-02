@@ -1,3 +1,9 @@
+### 2、anime.js使用
+
+- [1、代码路径](https://github.com/uasier/webPages/tree/master/animejs)
+
+- [2、在线预览](https://uasier.github.io/webPages/animejs/)
+
 ## animejs
 [1、中文站点](http://www.animejs.cc/)
 

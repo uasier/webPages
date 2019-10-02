@@ -23,10 +23,19 @@
 ### 4、帮你baidu
 
 - [1、代码路径](https://github.com/uasier/webPages/tree/master/help2baidu)
+
 - [2、在线预览](https://uasier.github.io/webPages/help2baidu/)
 
 ### 5、公益404
 
 - [1、代码路径](https://github.com/uasier/webPages/tree/master/404)
+
 - [2、在线预览](https://uasier.github.io/webPages/404/404.html)
+
+
+### 6、代码高亮
+
+- [1、代码路径](https://github.com/uasier/webPages/tree/master/code2highlight)
+
+- [2、在线预览](https://uasier.github.io/webPages/code2highlight/index.html)
 

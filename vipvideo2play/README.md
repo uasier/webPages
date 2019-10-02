@@ -1,3 +1,9 @@
+### 3、vip视频解析（调接口）
+
+- [1、代码路径](https://github.com/uasier/webPages/tree/master/vipvideo2play)
+
+- [2、在线预览](https://uasier.github.io/webPages/vipvideo2play/)
+
 # vipvideo2play
 整合的vip视频解析<br />
 参考了:<br />
